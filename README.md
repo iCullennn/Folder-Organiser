@@ -13,14 +13,6 @@ A simple PowerShell script that organises a folder by file type. Handy for quick
 - Handles files with no extensions too  
 
 ---
-
-## ⚙️ Usage
-
-```powershell
-.\Folder_Organiser.ps1 -Dir "C:\Path\To\Your\TargetFolder"
-Replace C:\Path\To\Your\TargetFolder with the folder you want to organise.
-
----
 ## 🧪 Example
 Before:
 arduino
@@ -38,6 +30,16 @@ Downloads\
 ├── pdf\report.pdf
 ├── jpg\image.jpg
 ├── txt\notes.txt
+
+---
+
+## ⚙️ Usage
+
+```powershell
+.\Folder_Organiser.ps1 -Dir "C:\Path\To\Your\TargetFolder"
+Replace C:\Path\To\Your\TargetFolder with the folder you want to organise.
+
+
 
 ---
 
