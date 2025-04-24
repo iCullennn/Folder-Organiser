@@ -13,37 +13,9 @@ A simple PowerShell script that organises a folder by file type. Handy for quick
 - Handles files with no extensions too  
 
 ---
-## 🧪 Example
-Before:
-arduino
-Copy
-Edit
-Downloads\
-├── report.pdf
-├── image.jpg
-├── notes.txt
-After running:
-arduino
-Copy
-Edit
-Downloads\
-├── pdf\report.pdf
-├── jpg\image.jpg
-├── txt\notes.txt
-
----
-
-## ⚙️ Usage
-
-```powershell
-.\Folder_Organiser.ps1 -Dir "C:\Path\To\Your\TargetFolder"
-Replace C:\Path\To\Your\TargetFolder with the folder you want to organise.
-
-
-
----
 
 ## 💻 Script
+
 powershell
 Copy
 Edit
@@ -99,4 +71,14 @@ foreach ($file in $files) {
 }
 
 Write-Output "Folder organization complete!"
+
+---
+
+## ⚙️ Usage
+
+```powershell
+.\Folder_Organiser.ps1 -Dir "C:\Path\To\Your\TargetFolder"
+Replace C:\Path\To\Your\TargetFolder with the folder you want to organise.
+
+
 
