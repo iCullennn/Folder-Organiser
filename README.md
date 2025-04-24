@@ -20,7 +20,7 @@ A simple PowerShell script that organises a folder by file type. Handy for quick
 .\Folder_Organiser.ps1 -Dir "C:\Path\To\Your\TargetFolder"
 Replace C:\Path\To\Your\TargetFolder with the folder you want to organise.
 
-## 🧪 Example
+# 🧪 Example
 Before:
 arduino
 Copy
