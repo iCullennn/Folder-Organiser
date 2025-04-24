@@ -20,7 +20,7 @@ A simple PowerShell script that organises a folder by file type. Handy for quick
 .\Folder_Organiser.ps1 -Dir "C:\Path\To\Your\TargetFolder"
 Replace C:\Path\To\Your\TargetFolder with the folder you want to organise.
 
-🧪 Example
+### 🧪 Example
 Before:
 arduino
 Copy
@@ -38,7 +38,7 @@ Downloads\
 ├── jpg\image.jpg
 ├── txt\notes.txt
 
-💻 Script
+#### 💻 Script
 powershell
 Copy
 Edit
@@ -94,22 +94,4 @@ foreach ($file in $files) {
 }
 
 Write-Output "Folder organization complete!"
-🛠 Requirements
-PowerShell 5+ or PowerShell Core (Windows/macOS/Linux)
 
-No external dependencies
-
-🧠 Author
-Your Name Here
-Made while learning PowerShell scripting.
-
-⭐️ Show your support
-If you found this useful, feel free to ⭐️ star the repo or fork it!
-
-yaml
-Copy
-Edit
-
----
-
-Let me know once it's up — happy to check it out or give suggestions!
